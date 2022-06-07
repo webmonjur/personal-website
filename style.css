@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.d-flex{
+    display:flex;
+}
+ul{
+    list-style:none;
+}
+li{
+    display:inline-block;
+}
+a{
+    text-decoration:none;
+}
+section{
+    padding:100px 0px;
+}
+.button{
+    padding:10px 25px;
+    background:linear-gradient(160deg, orange,  tomato);
+    font-size:20px;
+    color:white;
+    text-align:center;
+    border-radius:7px;
+    transition:0.5s;
+    border:1px solid tomato;
+    display:inline-block;
+    transition:all 0.5s ease-in;
+}
+.button:hover{
+    background:linear-gradient(160deg, white,  #eeeded);
+    color:tomato;
+}
+.container{
+    width:1470px;
+    max-width:100%;
+    margin:auto;
+}
+.navbar-wrapper{
+    justify-content: space-between;
+}
+.menubar{
+    background-color:aliceblue;
+}
+.navbar-brand h1{
+    line-height:50px;
+    display:block;
+}
+.navbar-menu li a{
+    color:black;
+    margin:10px;
+    padding:10px 15px;
+    display:block;
+    font-size:20px;
+    position:relative;
+}
+.navbar-menu li a::after{
+    content:"";
+    width:0%;
+    position: absolute;
+    height:2px;
+    background-color:tomato;
+    left:0;
+    bottom:0;
+    transition:0.5s ease-in;
+}
+.navbar-menu li a:hover{
+    color:tomato;
+    transition:0.5s ease;
+    background-color:white;
+    border-radius:5px;
+}
+.navbar-menu li a:hover::after{
+    width:100%;
+}
+
+/* ------------ banner section */
+.banner-section{
+    background-image:url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.content-box{
+    width:50%;
+    max-width:100%;
+}
+.text-box{
+    display:flex;
+    flex-direction:column;
+    align-self: center;
+}
+.text-box h2{
+    font-size:45px;
+    margin-bottom:30px;
+}
+.text-box h1{
+    font-size:65px;
+    color:tomato;
+    margin-bottom:30px;
+}
+.text-box p{
+    font-size:20px;
+    color:gray;
+    margin-bottom:20px;
+}
+.hire-button{
+    padding:10px 25px;
+    background-image:linear-gradient(160deg, orange,  tomato);
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
+.img-box{
+    width:50%;
+    max-width:100%;
+}
+.img-box img{
+    width:100%;
+}
+/* ------biography section statrt */
+.biography-section{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/* ---------- latest work section-------- */
+.latest-work-section{
+    background-image:url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.works-item{
+    width:33%;
+    max-width:100%;
+    margin:10px;
+}
+.works-item img{
+    width:100%;
+}
+.section-heading h1{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:100px;
+}
+
+/* ----------- client section start--------- */
+.client-section{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content-wrapper{
+    text-align:center;
+    width:100%;
+}
+.client-text-box{
+    width:50%;
+    margin:auto;
+}
+.client-text-box h2{}
+.client-text-box h4{}
+.client-text-box p{}
