@@ -167,5 +167,31 @@ section{
     margin:auto;
 }
 .client-text-box h2{}
-.client-text-box h4{}
-.client-text-box p{}
+.client-text-box h4{
+    font-weight:400;
+    color:gray;
+}
+.client-text-box p{
+    color:darkgray;
+    margin:30px;
+}
+.email-box{
+    background-color:tomato;
+    width:40%;
+    margin:auto;
+    padding:30px;
+    border-radius:10px;
+    color:white;
+}
+.email-box h3{
+    font-weight:400;
+    margin-bottom:10px;
+}
+footer{
+    padding:20px 0;
+    background-color:#eeeded;
+}
+footer p{
+    text-align:center;
+
+}
